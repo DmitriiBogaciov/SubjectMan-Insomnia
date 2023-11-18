@@ -1,0 +1,33 @@
+_id: req_3f36a191a1e14f238e7b1a7234f0ca1e
+type: Request
+parentId: fld_d8a7e345197b495182c5a9ff317b170f
+modified: 1700274775084
+created: 1700274481154
+url: "{{host}}/study-programme/create"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Software debelopment",
+    	"description": "The best study programme",
+    	"language": "English",
+    	"degree": "Bc."
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1700274481154
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
