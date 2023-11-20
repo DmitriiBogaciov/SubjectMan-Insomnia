@@ -1,7 +1,7 @@
 _id: req_3f36a191a1e14f238e7b1a7234f0ca1e
 type: Request
 parentId: fld_d8a7e345197b495182c5a9ff317b170f
-modified: 1700274775084
+modified: 1700415863533
 created: 1700274481154
 url: "{{host}}/study-programme/create"
 name: create
@@ -9,10 +9,10 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
-    	"name": "Software debelopment",
-    	"description": "The best study programme",
+    	"name": "Software Development",
+    	"description": "The Software Development bachelor’s study program will show you how to design robust cloud apps in modern programming languages and help you understand various disciplines within software development.",
     	"language": "English",
     	"degree": "Bc."
     }
@@ -22,7 +22,9 @@ headers:
     value: application/json
   - name: User-Agent
     value: insomnia/2023.5.8
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1700274481154
 isPrivate: false
 settingStoreCookies: true

@@ -1,0 +1,25 @@
+_id: req_fa5d8d202a06463db450de71e290b9ee
+type: Request
+parentId: fld_d8a7e345197b495182c5a9ff317b170f
+modified: 1700398372791
+created: 1700277166051
+url: "{{host}}/study-programme/get/6558338d6cdfb32fc1aaf338"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1700277166051
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

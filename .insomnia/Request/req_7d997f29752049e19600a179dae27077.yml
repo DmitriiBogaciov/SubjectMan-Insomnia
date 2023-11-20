@@ -1,0 +1,25 @@
+_id: req_7d997f29752049e19600a179dae27077
+type: Request
+parentId: fld_d8a7e345197b495182c5a9ff317b170f
+modified: 1700461879152
+created: 1700278981219
+url: "{{host}}/study-programme/delete/655afd30063c06e7b5d50289"
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1700278981219
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
