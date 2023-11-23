@@ -1,9 +1,9 @@
 _id: req_7d997f29752049e19600a179dae27077
 type: Request
 parentId: fld_d8a7e345197b495182c5a9ff317b170f
-modified: 1700461879152
+modified: 1700721425260
 created: 1700278981219
-url: "{{host}}/study-programme/delete/655afd30063c06e7b5d50289"
+url: "{{host}}/study-programme/delete/655ef2f9dfd8633027b9e8af"
 name: delete
 description: ""
 method: DELETE

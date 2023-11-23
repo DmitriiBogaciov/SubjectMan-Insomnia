@@ -1,15 +1,24 @@
 _id: req_18fc04b01d354b12812b80e00578ee96
 type: Request
 parentId: fld_1a86f17e8b5f413eaaa5fba47a2ae536
-modified: 1699412959872
+modified: 1700719311017
 created: 1699412935875
-url: "{{host}}/subject/get&id="
-name: New Request
+url: "{{host}}/subject/create"
+name: create
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name": "React",
+    	"description": "Introduction to React",
+    	"externalLink": "https://codefinity.com/start/web?utm_source=google&utm_medium=cpc&utm_campaign=20080488953&utm_content=149606575678&utm_term=introduction%20to%20react&gad_source=1&gclid=Cj0KCQiA6vaqBhCbARIsACF9M6kOucoXVytQjLHiEjvgguKQmbMDr8MxNeXdxaTkGvhe1njQ5WliWvAaAuB2EALw_wcB"
+    }
 parameters: []
 headers:
+  - name: Content-Type
+    value: application/json
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}

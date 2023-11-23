@@ -1,9 +1,9 @@
 _id: req_fa5d8d202a06463db450de71e290b9ee
 type: Request
 parentId: fld_d8a7e345197b495182c5a9ff317b170f
-modified: 1700398372791
+modified: 1700550940709
 created: 1700277166051
-url: "{{host}}/study-programme/get/6558338d6cdfb32fc1aaf338"
+url: "{{host}}/study-programme/get/655a04c59521ff7eee51730a"
 name: get
 description: ""
 method: GET
